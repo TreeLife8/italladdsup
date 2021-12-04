@@ -3,7 +3,7 @@
     center;
   background-size: cover;
   padding: 80px 0 0;
-  height: 500px;
+  height: 85vh;
   margin-bottom: 30px;
 }
 .Packages .heading {
@@ -14,9 +14,7 @@
   text-shadow: 2px 2px 10px rgb(192, 192, 192);
   color: white;
 }
-.Packages .custom-shape-divider-bottom-1634265382 {
-  top: 470px;
-}
+
 .Packages .custom-shape-divider-bottom-1634265382 .shape-fill {
   fill: #ffffff;
 }

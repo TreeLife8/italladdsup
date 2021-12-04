@@ -1,6 +1,7 @@
 import React from "react";
 import "./Packages.css";
 import XERO from "../images/XeroDevices.png";
+import ShapeDivider from "../ShapeDivider";
 // import AdvertiseBanner from "../homeDomains/AdvertiseBanner.js";
 // import Testimonials from "../Testimonials";
 // import desk from "../../images/IAAU - images - workdesk.png";
@@ -70,6 +71,7 @@ export default function Packages() {
     <div className="Packages">
       <div className="hero container-fluid">
         <h1 className="heading">Packages</h1>
+        <ShapeDivider />
       </div>
       <div className="container">
         <div className="row" data-aos="fade-up">
