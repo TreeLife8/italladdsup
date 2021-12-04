@@ -1,4 +1,5 @@
 import React from "react";
+import FeaturesSection from "./FeaturesSection";
 import FocusCatch from "./FocusCatch";
 import Hero from "./Hero";
 import Intro from "./Intro";
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <FocusCatch />
       <Testimonials />
+      <FeaturesSection />
     </div>
   );
 }

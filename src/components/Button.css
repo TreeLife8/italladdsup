@@ -1,7 +1,7 @@
 .Button button.btn {
   background: var(--light-accent);
   opacity: 0.7;
-  padding: 20px 40px;
+  padding: 15px 40px;
   font-size: 2vw;
   color: var(--dark-accent);
   border-radius: 6px;

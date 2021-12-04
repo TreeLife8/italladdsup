@@ -1,0 +1,20 @@
+.Testimonials .carousel-inner {
+  padding: 50px 50px 0;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: var(--dark-accent);
+  font-weight: 300;
+  opacity: 0.7;
+}
+.Testimonials .testimonal-carousel {
+  position: relative;
+  z-index: 1;
+  left: 155px;
+}
+
+.Testimonials h4 {
+  padding-top: 50px;
+  color: var(--seamoss-colour);
+  opacity: 0.6;
+  text-align: center;
+}

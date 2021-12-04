@@ -1,0 +1,39 @@
+.FeaturesSection .banner {
+  padding: 50px;
+  background-color: var(--seamoss-colour);
+  color: var(--light-accent);
+}
+
+.FeaturesSection .section-heading {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.FeaturesSection .heading {
+  padding: 40px;
+  font-size: 3.5vw;
+  font-family: var(--heading-font);
+}
+
+.FeaturesSection .card {
+  background-color: var(--seamoss-colour);
+  border: none;
+  width: 200px;
+  margin: 20px 0px;
+}
+.FeaturesSection .card-body {
+  padding: 0;
+}
+
+.FeaturesSection .card-img-top {
+  width: 3vw;
+  margin-left: 15px;
+  padding-bottom: 0;
+}
+.FeaturesSection .card-title {
+  font-family: var(--heading-font);
+  font-size: 20px;
+}
+.FeaturesSection .card-text {
+  opacity: 0.7;
+}

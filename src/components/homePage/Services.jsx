@@ -73,7 +73,7 @@ export default function Services() {
           </div>
         </div>
         <div className="col-8 ps-5">
-          <div className="row">
+          <div className="row d-flex justify-content-start">
             {services.map(function (service, index) {
               return (
                 <div key={index} className="col-sm">
