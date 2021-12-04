@@ -1,0 +1,16 @@
+.Button button.btn {
+  background: var(--light-accent);
+  opacity: 0.7;
+  padding: 20px 40px;
+  font-size: 2vw;
+  color: var(--dark-accent);
+  border-radius: 6px;
+  margin: 60px 0;
+  transition: 200ms all ease-in-out;
+}
+.Button button.btn:hover {
+  background: var(--light-accent);
+  opacity: 1;
+  color: var(--secondary-colour);
+  box-shadow: var(--shadow);
+}

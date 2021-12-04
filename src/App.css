@@ -1,0 +1,15 @@
+:root {
+  --main-font: "Red Hat Display", sans-serif;
+  --heading-font: "Prata", serif;
+  --script-font: "Parisienne", cursive;
+  --dark-accent: #2c3e59;
+  --secondary-colour: #598ba8;
+  --primary-colour: #a3d9d9;
+  --light-accent: #f7f7f7;
+  --grey-accent: #a3a3a3e0;
+  --seamoss-colour: #5b89a6;
+  --shadow: 0 0 10px rgb(121, 121, 121);
+}
+body {
+  font-family: var(--main-font);
+}

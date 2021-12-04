@@ -1,0 +1,20 @@
+.Hero {
+  text-align: center;
+  background: url(/src/components/images/beach.jpg) no-repeat center center
+    fixed;
+  max-height: 800px;
+  height: 590px;
+  background-size: cover;
+}
+.Hero .title {
+  padding-top: 150px;
+  font-family: var(--heading-font);
+  font-size: 5vw;
+  color: var(--dark-accent);
+  margin-bottom: 30px;
+}
+.Hero .description {
+  font-size: 25px;
+  width: 70%;
+  margin: auto;
+}
