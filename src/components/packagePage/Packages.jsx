@@ -1,7 +1,7 @@
 import React from "react";
 import "./Packages.css";
 import XERO from "../images/XeroDevices.png";
-import ShapeDivider from "../ShapeDivider";
+import ShapeDivider from "./ShapeDivider";
 // import AdvertiseBanner from "../homeDomains/AdvertiseBanner.js";
 // import Testimonials from "../Testimonials";
 // import desk from "../../images/IAAU - images - workdesk.png";

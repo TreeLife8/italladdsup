@@ -7,7 +7,7 @@
   margin-bottom: 30px;
 }
 .Packages .heading {
-  font-size: 90px;
+  font-size: 8vw;
   text-align: center;
   padding-top: 50px;
   font-family: var(--heading-font);
@@ -15,9 +15,6 @@
   color: white;
 }
 
-.Packages .custom-shape-divider-bottom-1634265382 .shape-fill {
-  fill: #ffffff;
-}
 .Packages .card {
   background: var(--light-accent);
   padding: 15px;
