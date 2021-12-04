@@ -1,9 +1,10 @@
-.Testimonials .img-tile {
-  width: 50vw;
-}
 .Testimonials .quote {
   position: relative;
-  top: -200px;
-  width: 350px;
-  left: 250px;
+  top: -5vh;
+  width: 25vw;
+  left: 22vw;
+  padding: 0;
+}
+.Testimonials .col-6 {
+  padding: 0;
 }

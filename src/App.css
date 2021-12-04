@@ -17,3 +17,17 @@ hr.element {
   width: 25%;
   color: var(--dark-accent);
 }
+.App .thin-heading {
+  font-size: 3.5vw;
+  font-weight: 100;
+  color: var(--secondary-colour);
+  opacity: 0.7;
+}
+.App .script-heading {
+  opacity: 0.7;
+  text-align: end;
+  color: var(--dark-accent);
+  font-size: 3.5vw;
+  font-weight: 100;
+  font-family: var(--script-font);
+}
