@@ -13,3 +13,7 @@
 body {
   font-family: var(--main-font);
 }
+hr.element {
+  width: 25%;
+  color: var(--dark-accent);
+}

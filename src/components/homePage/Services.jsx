@@ -84,7 +84,7 @@ export default function Services() {
                       alt={service.alt}
                     />
                     <div className="card-body">
-                      <hr className="card-element" />
+                      <hr className="element" />
                       <h5 className="card-title">{service.name}</h5>
                       <p className="card-text">{service.description}</p>
                     </div>
