@@ -3,6 +3,7 @@ import FocusCatch from "./FocusCatch";
 import Hero from "./Hero";
 import Intro from "./Intro";
 import Services from "./Services";
+import Testimonials from "./Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Intro />
       <Services />
       <FocusCatch />
+      <Testimonials />
     </div>
   );
 }
