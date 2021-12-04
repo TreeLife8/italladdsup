@@ -7,8 +7,9 @@
   padding: 12vh;
 }
 .FocusCatch .heading {
-  font-family: var(--heading-font);
   font-size: 3vw;
+  color: var(--light-accent);
+  padding: 0;
 }
 .FocusCatch .info {
   padding-top: 10px;

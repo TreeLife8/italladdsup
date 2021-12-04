@@ -1,4 +1,5 @@
 import React from "react";
+import ContactCatch from "./ContactCatch";
 import Dext from "./Dext";
 import FeaturesSection from "./FeaturesSection";
 import FocusCatch from "./FocusCatch";
@@ -17,6 +18,7 @@ export default function Home() {
       <Testimonials />
       <Dext />
       <FeaturesSection />
+      <ContactCatch />
     </div>
   );
 }

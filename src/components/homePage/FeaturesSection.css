@@ -10,11 +10,10 @@
   padding-bottom: 40px;
 }
 .FeaturesSection .heading {
-  padding: 40px;
-  font-size: 3.5vw;
-  font-family: var(--heading-font);
+  padding: 10vh 0vw;
+  text-align: end;
+  color: var(--light-accent);
 }
-
 .FeaturesSection .card {
   background-color: var(--seamoss-colour);
   border: none;

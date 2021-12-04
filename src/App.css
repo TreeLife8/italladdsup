@@ -31,3 +31,9 @@ hr.element {
   font-weight: 100;
   font-family: var(--script-font);
 }
+.App .heading {
+  padding: 40px;
+  color: var(--dark-accent);
+  font-size: 3.5vw;
+  font-family: var(--heading-font);
+}

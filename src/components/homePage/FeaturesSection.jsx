@@ -72,31 +72,35 @@ export default function FeaturesSection() {
     "cloud-based technology"
   );
   return (
-    <div className="FeaturesSection row">
-      <div className="col-6 banner">
-        <div className="row">
-          {features.map(function (feature, index) {
-            return (
-              <div key={index} className="col-sm">
-                <div className="card">
-                  <img
-                    src={feature.icon}
-                    className="card-img-top pb-1"
-                    alt={feature.alt}
-                  />
-                  <hr className="element" />
-
-                  <div className="card-body">
-                    <h5 className="card-title">{feature.name}</h5>
-                    <p className="card-text">{feature.description}</p>
+    <div className="FeaturesSection">
+      <div className="banner row">
+        <div className="col-8">
+          <div className="row">
+            {features.map(function (feature, index) {
+              return (
+                <div key={index} className="col-sm">
+                  <div className="card">
+                    <img
+                      src={feature.icon}
+                      className="card-img-top pb-1"
+                      alt={feature.alt}
+                    />
+                    <hr className="element" />
+                    <div className="card-body">
+                      <h5 className="card-title">{feature.name}</h5>
+                      <p className="card-text">{feature.description}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
+        </div>
+        <div className="col-4">
+          <hr className="element" />
+          <h2 className="heading">Trusted service</h2>
         </div>
       </div>
-      <div className="col-6"></div>
     </div>
   );
 }

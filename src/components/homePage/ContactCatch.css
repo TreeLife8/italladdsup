@@ -1,0 +1,10 @@
+.ContactCatch {
+  text-align: center;
+  padding-bottom: 10vh;
+}
+.ContactCatch hr.element {
+  margin: 15vh auto 2vh;
+}
+.ContactCatch .heading {
+  padding-bottom: 0;
+}
