@@ -7,10 +7,19 @@
   border-radius: 6px;
   margin: 60px 0;
   transition: 200ms all ease-in-out;
+  border: 1px solid var(--grey-accent);
 }
 .Button button.btn:hover {
-  background: var(--light-accent);
   opacity: 1;
   color: var(--secondary-colour);
+  border: none;
   box-shadow: var(--shadow);
+}
+.Button button.white {
+  border: none;
+  background: var(--dark-accent);
+  color: var(--light-accent);
+}
+.Button button.white:hover {
+  color: var(--light-accent);
 }

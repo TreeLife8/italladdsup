@@ -1,9 +1,14 @@
 nav {
   padding: 0;
   margin: 0;
+  color: var(--dark-accent);
+}
+nav .logo {
+  max-width: 60px;
+  margin-left: 20px;
 }
 nav a {
-  color: var(--dark-colour);
+  color: var(--dark-accent);
   letter-spacing: 0.6rem;
   font-family: hikouLight;
   font-size: 1.1rem;
@@ -19,7 +24,7 @@ nav a.nav-link {
 nav a.nav-link:hover,
 nav a.nav-link:active,
 nav a.nav-link:focus {
-  color: var(--primary-colour);
+  color: var(--seamoss-colour);
 }
 nav a:hover {
   color: var(--secondary-colour);
@@ -32,16 +37,16 @@ nav .navbar {
   padding: 0;
 }
 nav button.navbar-toggler {
-  border: var(--dark-colour) 1px solid;
+  border: var(--dark-accent) 1px solid;
 }
 nav button.navbar-toggler:focus {
-  border: var(--dark-colour) 1px solid;
+  border: var(--dark-accent) 1px solid;
 }
 nav .navbar-toggler-icon {
   margin: 5px 0 0;
 }
 nav .navbar-toggler-icon .burger {
-  color: var(--dark-colour);
+  color: var(--dark-accent);
   opacity: 1;
   margin: 5px 1px;
 }
@@ -50,12 +55,12 @@ nav button {
   margin: 20px;
 }
 nav .navbar-nav {
-  background-color: var(--dark-colour);
+  background-color: var(--light-accent);
   opacity: 0.9;
   padding: 25px;
 }
 nav #banner {
-  background-color: var(--dark-colour);
+  background-color: var(--light-accent);
   opacity: 0.9;
   padding: 0px 12px;
 }

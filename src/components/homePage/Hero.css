@@ -3,7 +3,7 @@
   background: url(/src/components/images/beach.jpg) no-repeat center center
     fixed;
   max-height: 800px;
-  height: 590px;
+  height: 750px;
   background-size: cover;
 }
 .Hero .title {

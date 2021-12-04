@@ -6,7 +6,9 @@ function Button(props) {
   return (
     <div className="Button">
       <Link to={props.to}>
-        <button className="btn">{props.text}</button>
+        <button className={props.whiteBackground ? "btn white" : "btn"}>
+          {props.text}
+        </button>
       </Link>
     </div>
   );

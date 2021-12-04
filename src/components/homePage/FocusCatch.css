@@ -1,0 +1,17 @@
+.FocusCatch {
+  background-color: var(--dark-accent);
+  color: var(--light-accent);
+  padding: 70px;
+}
+.FocusCatch .heading {
+  font-family: var(--heading-font);
+  font-size: 4vw;
+}
+.FocusCatch .info {
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 19px;
+  width: 600px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}

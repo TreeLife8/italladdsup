@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./NavBar.css";
+import "./Navbar.css";
+import logo from "./images/logos/LOGO-blue.png";
 
 function Navbar(props) {
   return (
@@ -9,26 +10,27 @@ function Navbar(props) {
         className="container-fluid d-flex me-3"
         id={props.state ? "banner" : ""}
       >
-        <div className="">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            onClick={() => props.toggleNavbar()}
-          >
-            <span className="navbar-toggler-icon">
-              <hr className="burger" />
-              <hr className="burger" />
-              <hr className="burger" />
-            </span>
-          </button>
-        </div>
+        <Link className="navbar-brand" to="/">
+          <img src={logo} className="logo" alt="It all adds up logo" />
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onClick={() => props.toggleNavbar()}
+        >
+          <span className="navbar-toggler-icon">
+            <hr className="burger" />
+            <hr className="burger" />
+            <hr className="burger" />
+          </span>
+        </button>
       </div>
-      <div>
+      <div className="d-flex justify-content-end">
         <div
           className={props.state ? "collapse" : "collapse navbar-collapse"}
           id="navbarNav"
@@ -42,7 +44,7 @@ function Navbar(props) {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="./Packages">
-                Packages
+                packages
                 <hr className="burger" />
               </Link>
             </li>

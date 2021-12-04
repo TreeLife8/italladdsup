@@ -1,0 +1,44 @@
+.Services {
+  background-color: var(--light-accent);
+  padding: 50px 0;
+}
+.Services .section-heading {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.Services .heading {
+  padding: 40px;
+  color: var(--dark-accent);
+  font-size: 3.5vw;
+  font-family: var(--heading-font);
+}
+
+.Services .card {
+  background-color: var(--light-accent);
+  border: none;
+  width: 200px;
+  margin: 20px 0px;
+}
+.Services .card-body {
+  padding: 0;
+}
+.Services hr.card-element {
+  width: 25%;
+  color: var(--dark-accent);
+}
+.Services .card-img-top {
+  width: 3vw;
+  margin-left: 15px;
+  padding-bottom: 0;
+}
+.Services .card-title {
+  color: var(--dark-accent);
+  font-family: var(--heading-font);
+  font-size: 19px;
+}
+.Services .card-text {
+  color: var(--dark-accent);
+
+  opacity: 0.6;
+}
