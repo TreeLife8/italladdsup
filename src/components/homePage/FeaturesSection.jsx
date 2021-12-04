@@ -81,9 +81,11 @@ export default function FeaturesSection() {
                 <div className="card">
                   <img
                     src={feature.icon}
-                    className="card-img-top pb-3"
+                    className="card-img-top pb-1"
                     alt={feature.alt}
                   />
+                  <hr className="element" />
+
                   <div className="card-body">
                     <h5 className="card-title">{feature.name}</h5>
                     <p className="card-text">{feature.description}</p>

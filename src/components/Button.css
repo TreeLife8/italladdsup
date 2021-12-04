@@ -3,17 +3,16 @@
   opacity: 0.7;
   padding: 15px 40px;
   font-size: 2vw;
+  font-weight: 300;
   color: var(--dark-accent);
   border-radius: 6px;
   margin: 60px 0;
   transition: 200ms all ease-in-out;
-  border: 1px solid var(--grey-accent);
 }
 .Button button.btn:hover {
   opacity: 1;
   color: var(--secondary-colour);
-  border: none;
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 .Button button.white {
   border: none;
@@ -21,5 +20,6 @@
   color: var(--light-accent);
 }
 .Button button.white:hover {
+  box-shadow: var(--shadow);
   color: var(--light-accent);
 }

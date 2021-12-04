@@ -1,7 +1,10 @@
 .FocusCatch {
   background-color: var(--dark-accent);
   color: var(--light-accent);
-  padding: 12vh 6vw 2vh;
+  padding: 0;
+}
+.FocusCatch .catch-column {
+  padding: 12vh;
 }
 .FocusCatch .heading {
   font-family: var(--heading-font);
@@ -17,4 +20,8 @@
 }
 .FocusCatch .element {
   color: var(--light-accent);
+}
+.FocusCatch .keyboard {
+  transform: scaleX(-1);
+  width: 500px;
 }

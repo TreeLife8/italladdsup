@@ -13,7 +13,21 @@
   font-size: 3.5vw;
   font-family: var(--heading-font);
 }
-
+.Services h3.heading {
+  padding-bottom: 5px;
+  font-size: 2.5vw;
+  text-align: end;
+}
+.Services .info {
+  padding-top: 10px;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: end;
+  padding-right: 3vw;
+  width: 500px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
 .Services .card {
   background-color: var(--light-accent);
   border: none;
@@ -26,7 +40,7 @@
 
 .Services .card-img-top {
   width: 3vw;
-  margin-left: 15px;
+  margin-left: 5px;
   padding-bottom: 0;
 }
 .Services .card-title {
