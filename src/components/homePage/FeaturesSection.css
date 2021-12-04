@@ -9,8 +9,17 @@
   justify-content: center;
   padding-bottom: 40px;
 }
+.FeaturesSection .right-column hr.element {
+  margin-left: 1vw;
+}
+.FeaturesSection hr.element {
+  color: var(--light-accent);
+}
+.FeaturesSection .right-column {
+  padding-left: 3vw;
+}
 .FeaturesSection .heading {
-  padding: 10vh 0vw;
+  padding: 2vh 0vw;
   text-align: end;
   color: var(--light-accent);
 }

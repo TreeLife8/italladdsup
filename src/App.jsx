@@ -4,6 +4,7 @@ import Home from "./components/homePage/Home";
 import Packages from "./components/packagePage/Packages";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [state, toggle] = useState(false);
@@ -22,6 +23,7 @@ export default function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="Packages" element={<Packages />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

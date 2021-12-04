@@ -4,7 +4,11 @@
 }
 .ContactCatch hr.element {
   margin: 15vh auto 2vh;
+  color: var(--primary-colour);
+  padding: 1px;
+  opacity: 1;
 }
 .ContactCatch .heading {
   padding-bottom: 0;
+  color: var(--seamoss-colour);
 }

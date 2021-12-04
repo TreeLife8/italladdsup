@@ -96,7 +96,7 @@ export default function FeaturesSection() {
             })}
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-4 right-column">
           <hr className="element" />
           <h2 className="heading">Trusted service</h2>
         </div>
