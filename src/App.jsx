@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Home from "./components/homePage/Home";
 import Packages from "./components/packagePage/Packages";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
@@ -24,6 +25,7 @@ export default function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="Packages" element={<Packages />} />
+        <Route exact path="Contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

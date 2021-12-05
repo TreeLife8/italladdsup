@@ -2,9 +2,8 @@ import React from "react";
 import "./Packages.css";
 import XERO from "../images/XeroDevices.png";
 import ShapeDivider from "./ShapeDivider";
-// import AdvertiseBanner from "../homeDomains/AdvertiseBanner.js";
-// import Testimonials from "../Testimonials";
-// import desk from "../../images/IAAU - images - workdesk.png";
+import ConsultationCatch from "./ConsultationCatch";
+import TestimonialBanner from "./TestimonialBanner";
 
 export default function Packages() {
   let packages = [
@@ -70,7 +69,7 @@ export default function Packages() {
   return (
     <div className="Packages">
       <div className="hero container-fluid">
-        <h1 className="heading">Packages</h1>
+        <h1 className="title">Packages</h1>
         <ShapeDivider />
       </div>
       <div className="container">
@@ -88,7 +87,7 @@ export default function Packages() {
                     <h6 className="card-subtitle text-muted mb-2">
                       {service.description}
                     </h6>
-                    <hr className="divider" />
+                    <hr className="element" />
                     <ul className="card-text">
                       {service.services.map(function (service, index) {
                         return <li key={index}>{service}</li>;
@@ -103,14 +102,13 @@ export default function Packages() {
         <div className="row">
           <div className="col-sm-7">
             <img
-              className="xero-img img-fluid"
-              data-aos="fade-up"
+              className="xero-img img-fluid fade-up"
               src={XERO}
               alt="a computer, phone and tablet all displaying the xero software"
             />
           </div>
           <div className="col-sm-5">
-            <div data-aos="fade-up" className="quote">
+            <div className="quote fade-up">
               <h2 className="thin-heading">
                 Free software installation & setup upon request
               </h2>
@@ -124,15 +122,9 @@ export default function Packages() {
         </div>
       </div>
       <div className="dark-banner pb-3">
-        {/* <Testimonials img={desk} /> */}
+        <TestimonialBanner />
       </div>
-      <div className="light-banner">
-        {/* <AdvertiseBanner
-          catchphrase="Sick of feeling taxed?"
-          title="Get a FREE consultation"
-          catch="...with your LOCAL, trustworthy and friendly bookkeeper."
-        /> */}
-      </div>
+      <ConsultationCatch />
     </div>
   );
 }

@@ -18,3 +18,22 @@
   width: 70%;
   margin: auto;
 }
+@media (prefers-reduced-motion: no-preference) {
+  .fade-up {
+    animation-duration: 3s;
+    animation-name: slide-fade;
+    animation-direction: alternate;
+  }
+}
+
+@keyframes slide-fade {
+  from {
+    margin-bottom: 20%;
+    opacity: 0;
+  }
+
+  to {
+    margin-bottom: 2.5%;
+    opacity: 1;
+  }
+}

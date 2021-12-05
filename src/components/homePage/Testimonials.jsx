@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./Carousel";
+import Carousel from "../Carousel";
 import officePlant from "../images/officePlant.jpg";
 import "./Testimonials.css";
 import quotation from "../images/quotation.png";
