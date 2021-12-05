@@ -43,13 +43,13 @@ function Navbar(props) {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="./Packages">
+              <Link className="nav-link" to="../Packages">
                 packages
                 <hr className="burger" />
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="./Contact">
+              <Link className="nav-link" to="../Contact">
                 contact
               </Link>
             </li>

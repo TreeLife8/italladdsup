@@ -15,7 +15,6 @@ export default function Home(props) {
   return (
     <div className="Home">
       <Navbar toggleNavbar={props.toggleNavbar} state={props.state} />
-
       <Hero />
       <Intro />
       <Services />

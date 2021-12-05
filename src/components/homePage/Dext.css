@@ -19,3 +19,24 @@
     right: 10vw;
   }
 }
+@media (max-width: 1025px) {
+  .Dext .section-heading {
+    padding: 5vh 0 10vh 1vw;
+  }
+  .Dext .logo {
+    position: absolute;
+    right: 0;
+    width: 22vw;
+  }
+  .Dext .dext-images {
+    padding: 0vh 8vw 0 0;
+  }
+  .Dext .computer {
+    padding-top: 10vh;
+  }
+}
+@media (max-width: 770px) {
+  .Dext .section-heading {
+    padding-bottom: 1vw;
+  }
+}

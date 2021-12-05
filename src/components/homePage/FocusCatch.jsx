@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import "./FocusCatch.css";
-import keyboard from "../images/keyboardTransparentCut.png";
+import nofear from "../images/nofear.png";
 
 export default function FocusCatch() {
   return (
@@ -9,7 +9,7 @@ export default function FocusCatch() {
       <div className="row">
         <div className="col-sm-6">
           <img
-            src={keyboard}
+            src={nofear}
             alt="keyboard and pen"
             className="img-fluid keyboard"
           />

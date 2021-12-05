@@ -3,28 +3,28 @@ footer {
   color: var(--dark-accent);
   font-family: var(----main-font);
 }
+
 footer .arrow {
   margin: 0;
   padding: 0;
 }
 footer .details {
-  padding: 5px;
+  padding: 2px;
   font-family: var(--main-font);
   margin-left: 100px;
   display: flex;
   justify-content: flex-start;
-}
-footer .contact {
   font-size: 12px;
-  text-align: start;
 }
 footer .contact-details {
   padding-bottom: 20px;
 }
-footer .fas {
-  font-size: 30px;
-  padding-right: 20px;
-  text-align: end;
+
+footer .subheading {
+  padding-left: 0;
+  color: var(--dark-accent);
+  font-size: 2vw;
+  font-family: var(--heading-font);
 }
 footer a {
   text-decoration: none;
@@ -54,23 +54,35 @@ footer .logotype {
 footer .band {
   background: var(--dark-accent);
 }
-footer .sclogo {
-  max-width: 170px;
-  padding: 20px;
-}
-footer .squiggle-code-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 footer .fab {
   padding: 15px;
 }
-
+footer .Github-link {
+  text-align: center;
+}
+footer .Github-link a {
+  color: var(--primary-colour);
+}
 footer .social-links {
-  font-size: 50px;
+  font-size: 4vw;
   justify-content: center;
   align-items: center;
+  padding-left: 42px;
+}
+@media (max-width: 770px) {
+  footer .logotype {
+    max-width: 220px;
+  }
+  footer .logo {
+    max-width: 200px;
+  }
+  footer .details {
+    margin-left: 10px;
+  }
+  footer .subheading {
+    font-size: 3vw;
+  }
 }
 @media (max-width: 570px) {
   footer .logotype {
@@ -79,7 +91,18 @@ footer .social-links {
   footer .logo {
     max-width: 270px;
   }
-  footer .details {
-    margin-left: 10px;
+}
+@media (max-width: 412px) {
+  footer .logo {
+    display: none;
+  }
+  footer .subheading {
+    font-size: 5vw;
+  }
+  footer .fab {
+    padding: 10px;
+  }
+  footer .social-links {
+    font-size: 10vw;
   }
 }

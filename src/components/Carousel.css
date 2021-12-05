@@ -20,3 +20,21 @@
 .Carousel {
   height: 18vh;
 }
+@media (max-width: 1025px) {
+  .Carousel .carousel-inner {
+    padding: 3vh 4vw 0;
+    font-size: 2vw;
+  }
+  .Carousel .referee {
+    padding: 20px 0 0;
+  }
+}
+@media (max-width: 415px) {
+  .Carousel .carousel-inner {
+    padding: 5vh 10vw 0;
+    font-size: 4vw;
+  }
+  .Carousel .referee {
+    padding: 20px 0 0;
+  }
+}

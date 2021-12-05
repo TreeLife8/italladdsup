@@ -15,27 +15,19 @@ export default function Footer() {
       />
       <div className="row container-fluid pb-3">
         <div className="col-sm contact-details">
+          <h2 className="subheading details">Contact</h2>
           <div className="details">
-            <i className="fas fa-envelope-square"></i>
-            <span className="contact ms-2">
-              <a
-                className="title-group"
-                href="mailto: jane@italladdsup.com.au"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                jane@italladdsup.com.au
-              </a>
-            </span>
+            <a
+              className="title-group"
+              href="mailto: jane@italladdsup.com.au"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              jane@italladdsup.com.au
+            </a>
           </div>
-          <div className="details">
-            <i className="fas fa-phone-square-alt"></i>
-            <span className="contact ms-2">0407 235 772</span>
-          </div>
-          <div className="details">
-            <i className="fas fa-address-card"></i>
-            <span className="contact">PO. Box 494 Avalon Beach NSW 2107</span>
-          </div>
+          <div className="details">0407 235 772</div>
+          <div className="details">PO. Box 494 Avalon Beach NSW 2107</div>
         </div>
         <div className="col-sm d-flex social-links">
           <a
@@ -53,9 +45,9 @@ export default function Footer() {
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
-        <div className="col-sm mobile-hidden">
+        <div className="col-sm">
           <Link to="/">
-            <img className="logo " src={logo} alt="It all adds up logo" />
+            <img className="logo" src={logo} alt="It all adds up logo" />
           </Link>
         </div>
       </div>
@@ -68,11 +60,16 @@ export default function Footer() {
           />
         </Link>
       </div>
-      <div className="squiggle-code-link mt-3 mb-3">
-        Crafted by Regina Maher
-        {/* <Link to="/">
-          <img className="sclogo" src={SCLogo} alt="it all adds up logotype" />
-        </Link> */}
+      <div className="Github-link mt-3 mb-3">
+        Crafted by Regina Maher and is opened source on{" "}
+        <a
+          href="https://github.com/TreeLife8/italladdsup"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          GitHub
+        </a>
       </div>
     </footer>
   );

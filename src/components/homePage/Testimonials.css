@@ -5,6 +5,21 @@
   left: 22vw;
   padding: 0;
 }
-.Testimonials .col-6 {
+.Testimonials .col-sm-6 {
   padding: 0;
+}
+@media (max-width: 1025px) {
+  .Testimonials .quote {
+    position: relative;
+    top: -10vh;
+    width: 20vw;
+  }
+  .Testimonials .col-sm-6 {
+    height: 300px;
+  }
+}
+@media (max-width: 770px) {
+  .Testimonials .col-sm-6 {
+    height: 225px;
+  }
 }

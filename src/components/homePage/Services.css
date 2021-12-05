@@ -21,7 +21,7 @@
   font-size: 18px;
   text-align: end;
   padding-right: 3vw;
-  width: 500px;
+  width: 40vw;
   line-height: 1.5;
   letter-spacing: 1.5px;
 }
@@ -47,6 +47,41 @@
 }
 .Services .card-text {
   color: var(--dark-accent);
-
   opacity: 0.6;
+}
+.Services .catch-phrase {
+  padding-right: 10px;
+}
+@media (max-width: 770px) {
+  .Services h3.heading {
+    font-size: 2.5vw;
+  }
+  .Services .info {
+    font-size: 1.5vw;
+    padding-right: 3vw;
+    width: 32vw;
+  }
+}
+@media (max-width: 415px) {
+  .Services .card {
+    width: 300px;
+    margin: 20px 0px;
+  }
+  .Services .card-img-top {
+    width: 5vw;
+  }
+  .Services .card-title {
+    font-size: 5.5vw;
+  }
+  .Services .card-text {
+    font-size: 4.5vw;
+  }
+  .Services h3.heading {
+    font-size: 5vw;
+  }
+  .Services .info {
+    font-size: 3.5vw;
+    padding-right: 3vw;
+    width: 90vw;
+  }
 }

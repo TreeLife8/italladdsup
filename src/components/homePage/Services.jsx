@@ -67,12 +67,12 @@ export default function Services() {
   return (
     <div className="Services">
       <div className="row">
-        <div className="col-4">
+        <div className="col-sm-4">
           <div className="section-heading">
             <h2 className="heading">Here for you...</h2>
           </div>
         </div>
-        <div className="col-8 ps-5">
+        <div className="col-sm-8 ps-5">
           <div className="row d-flex justify-content-start">
             {services.map(function (service, index) {
               return (
@@ -92,7 +92,7 @@ export default function Services() {
                 </div>
               );
             })}
-            <div className="col-sm">
+            <div className="col-sm catch-phrase">
               <h3 className="heading">...so you can focus.</h3>
               <h5 className="info">
                 Get peace of mind with clear reports and reliable advice, so you

@@ -37,3 +37,31 @@ hr.element {
   font-size: 3.5vw;
   font-family: var(--heading-font);
 }
+@media (max-width: 1025px) {
+  .App .thin-heading {
+    font-size: 4vw;
+  }
+  .App .script-heading {
+    text-align: end;
+    font-size: 4vw;
+  }
+}
+@media (max-width: 770px) {
+  .App .heading {
+    padding: 10px;
+    font-size: 4vw;
+  }
+}
+@media (max-width: 415px) {
+  .App .heading {
+    padding: 10px;
+    font-size: 9vw;
+  }
+  .App .thin-heading {
+    font-size: 9vw;
+  }
+  .App .script-heading {
+    text-align: end;
+    font-size: 9vw;
+  }
+}

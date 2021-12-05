@@ -8,7 +8,6 @@
 .Intro .thin-heading {
   padding-top: 50px;
 }
-
 .Intro .logo {
   width: 30vw;
   padding-bottom: 30px;
@@ -20,5 +19,17 @@
 @media (min-width: 1300px) {
   .Intro .folders {
     right: -10vw;
+  }
+}
+@media (max-width: 1025px) {
+  .Intro {
+    padding: 10vh 5vw 10vh;
+  }
+  .Intro .logo {
+    width: 70vw;
+    padding-bottom: 10px;
+  }
+  .Intro .folders {
+    right: -7vw;
   }
 }

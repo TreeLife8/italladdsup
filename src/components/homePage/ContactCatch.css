@@ -21,3 +21,11 @@
   font-weight: 300;
   letter-spacing: 1px;
 }
+@media (max-width: 1025px) {
+  .ContactCatch hr.element {
+    margin-top: 5vh;
+  }
+  .ContactCatch {
+    padding-bottom: 2vh;
+  }
+}
