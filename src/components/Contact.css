@@ -1,9 +1,7 @@
 .Contact {
-  text-align: center;
   background: url(/src/components/images/beachWalkway.jpg) no-repeat center
     center fixed;
-  max-height: 800px;
-  height: 750px;
+  height: 100vh;
   background-size: cover;
 }
 
@@ -23,7 +21,7 @@
   padding-bottom: 2vh;
 }
 .Contact .contact {
-  font-size: 19px;
+  font-size: 1.6vw;
   opacity: 0.7;
   letter-spacing: 1.2px;
   color: var(--dark-accent);
@@ -33,7 +31,7 @@
   text-decoration: none;
 }
 .Contact .contact-box {
-  width: 500px;
+  width: 37vw;
   padding: 30px;
   margin-left: 5vw;
   text-align: left;
@@ -46,4 +44,28 @@
 }
 .Contact nav button.navbar-toggler {
   border: var(--light-accent) 2px solid;
+}
+@media (max-width: 1025px) {
+  .Contact {
+    height: 50vh;
+  }
+}
+@media (max-width: 415px) {
+  .Contact {
+    height: 80vh;
+  }
+  .Contact .contact-box {
+    width: 80vw;
+    opacity: 0.9;
+  }
+  .Contact .contact {
+    font-size: 4vw;
+  }
+  .Contact .script-heading {
+    font-size: 7vw;
+  }
+  .Contact .title {
+    font-size: 11vw;
+    padding-top: 15vh;
+  }
 }
