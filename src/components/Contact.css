@@ -47,13 +47,12 @@
 }
 @media (max-width: 1025px) {
   .Contact {
-    height: 50vh;
+    background: url(/src/components/images/beachWalkway.jpg) no-repeat center
+      center;
+    height: 80vh;
   }
 }
 @media (max-width: 415px) {
-  .Contact {
-    height: 80vh;
-  }
   .Contact .contact-box {
     width: 80vw;
     opacity: 0.9;

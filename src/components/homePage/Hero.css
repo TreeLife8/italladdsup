@@ -2,7 +2,6 @@
   text-align: center;
   background: url(/src/components/images/beach.jpg) no-repeat center center
     fixed;
-  max-height: 800px;
   height: 750px;
   background-size: cover;
 }
@@ -12,11 +11,6 @@
   font-size: 5vw;
   color: var(--dark-accent);
   margin-bottom: 30px;
-}
-.Hero .description {
-  font-size: 25px;
-  width: 70%;
-  margin: auto;
 }
 @media (prefers-reduced-motion: no-preference) {
   .fade-up {
@@ -35,5 +29,35 @@
   to {
     margin-bottom: 2.5%;
     opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Hero {
+    height: 100vh;
+    background: url(/src/components/images/beach.jpg) no-repeat center center;
+  }
+  .Hero .title {
+    padding: 250px 40px 30px;
+    font-size: 8vw;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 415px) {
+  .Hero {
+    height: 100vh;
+    background: url(/src/components/images/beach.jpg) no-repeat center center;
+  }
+  .Hero .title {
+    padding-top: 150px;
+    font-family: var(--heading-font);
+    font-size: 5vw;
+    color: var(--dark-accent);
+    margin-bottom: 30px;
+  }
+  .Hero .description {
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
   }
 }
