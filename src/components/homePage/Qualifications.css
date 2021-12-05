@@ -13,3 +13,17 @@
     margin: auto;
   }
 }
+@media (max-width: 412px) {
+  .Qualifications {
+    background: var(--primary-colour);
+    padding: 20px 10px;
+  }
+  .Qualifications .col {
+    padding: 0;
+  }
+  .Qualifications .cert-symbol {
+    max-width: 20vw;
+    padding: 1px;
+    margin: auto;
+  }
+}

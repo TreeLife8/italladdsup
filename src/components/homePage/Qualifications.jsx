@@ -30,7 +30,7 @@ export default function Qualifications() {
         <div className="row">
           {qualifications.map(function (qualify, index) {
             return (
-              <div key={index} className="col-sm">
+              <div key={index} className="col">
                 <img
                   data-aos="fade-zoom-up"
                   className="cert-symbol img-fluid"

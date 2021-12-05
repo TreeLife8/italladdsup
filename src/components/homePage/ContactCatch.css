@@ -15,7 +15,7 @@
   color: var(--seamoss-colour);
   opacity: 0.8;
   padding-top: 20px;
-  width: 600px;
+  width: 50vw;
   margin: auto;
   line-height: 1.6;
   font-weight: 300;
@@ -27,5 +27,8 @@
   }
   .ContactCatch {
     padding-bottom: 2vh;
+  }
+  .ContactCatch .catch-phrase {
+    width: 70vw;
   }
 }

@@ -74,6 +74,12 @@ export default function FeaturesSection() {
   return (
     <div className="FeaturesSection">
       <div className="banner row">
+        <div className="left-column">
+          <div className="col-sm-4">
+            <hr className="element" />
+            <h2 className="heading">Trusted service</h2>
+          </div>
+        </div>
         <div className="col-sm-8 d-flex justify-content-start">
           <div className="row ">
             {features.map(function (feature, index) {
@@ -96,9 +102,11 @@ export default function FeaturesSection() {
             })}
           </div>
         </div>
-        <div className="col-sm-4 right-column">
-          <hr className="element" />
-          <h2 className="heading">Trusted service</h2>
+        <div className="right-column">
+          <div className="col-sm-4">
+            <hr className="element" />
+            <h2 className="heading">Trusted service</h2>
+          </div>
         </div>
       </div>
     </div>

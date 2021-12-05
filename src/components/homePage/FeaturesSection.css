@@ -23,6 +23,9 @@
   text-align: end;
   color: var(--light-accent);
 }
+.FeaturesSection .left-column {
+  display: none;
+}
 .FeaturesSection .card {
   background-color: var(--seamoss-colour);
   border: none;
@@ -51,5 +54,22 @@
   }
   .FeaturesSection .right-column {
     padding-left: 0vw;
+  }
+}
+@media (max-width: 541px) {
+  .FeaturesSection .card-img-top {
+    width: 6vw;
+  }
+}
+@media (max-width: 412px) {
+  .FeaturesSection .left-column {
+    display: block;
+    text-align: start;
+  }
+  .FeaturesSection .right-column {
+    display: none;
+  }
+  .FeaturesSection .heading {
+    text-align: start;
   }
 }
