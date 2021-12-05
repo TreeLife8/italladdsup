@@ -10,5 +10,14 @@
 }
 .ContactCatch .heading {
   padding-bottom: 0;
+}
+.ContactCatch .catch-phrase {
   color: var(--seamoss-colour);
+  opacity: 0.8;
+  padding-top: 20px;
+  width: 600px;
+  margin: auto;
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 1px;
 }

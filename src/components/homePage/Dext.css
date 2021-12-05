@@ -11,3 +11,6 @@
 .Dext .computer {
   padding-top: 20vh;
 }
+.Dext {
+  background-color: var(--light-accent);
+}

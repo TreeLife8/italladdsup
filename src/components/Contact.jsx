@@ -4,6 +4,7 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="Contact">
+      <div className="white-banner"></div>
       <h1 className="title">Get in touch</h1>
       <div className="contact-box">
         <h5 className="script-heading">Contact Jane</h5>

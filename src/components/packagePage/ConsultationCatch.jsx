@@ -14,7 +14,7 @@ export default function ConsultationCatch() {
       <div className="text-center">
         <Button
           text="book a consultation"
-          to="./Contact"
+          to="../Contact"
           whiteBackground={true}
         />
       </div>
