@@ -3,6 +3,7 @@ nav {
   margin: 0;
   color: var(--dark-accent);
 }
+
 nav .logo {
   max-width: 60px;
   margin-left: 20px;
@@ -58,6 +59,7 @@ nav .navbar-nav {
   background-color: var(--light-accent);
   opacity: 0.9;
   padding: 25px;
+  text-align: left;
 }
 nav #banner {
   background-color: var(--light-accent);

@@ -7,7 +7,7 @@ function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-xxxl fixed-top">
       <div
-        className="container-fluid d-flex me-3"
+        className="container-fluid d-flex pe-3"
         id={props.state ? "banner" : ""}
       >
         <Link className="navbar-brand" to="/">
@@ -30,7 +30,7 @@ function Navbar(props) {
           </span>
         </button>
       </div>
-      <div className="d-flex justify-content-end">
+      <div className="nav-menu">
         <div
           className={props.state ? "collapse" : "collapse navbar-collapse"}
           id="navbarNav"

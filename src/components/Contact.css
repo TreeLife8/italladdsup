@@ -40,3 +40,10 @@
   background-color: var(--light-accent);
   opacity: 0.9;
 }
+.Contact nav .navbar-toggler-icon .burger {
+  color: var(--light-accent);
+  padding: 1px;
+}
+.Contact nav button.navbar-toggler {
+  border: var(--light-accent) 2px solid;
+}

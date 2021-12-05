@@ -9,9 +9,13 @@ import Qualifications from "./Qualifications";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 
-export default function Home() {
+import Navbar from "../Navbar";
+
+export default function Home(props) {
   return (
     <div className="Home">
+      <Navbar toggleNavbar={props.toggleNavbar} state={props.state} />
+
       <Hero />
       <Intro />
       <Services />

@@ -4,8 +4,9 @@ import XERO from "../images/XeroDevices.png";
 import ShapeDivider from "./ShapeDivider";
 import ConsultationCatch from "./ConsultationCatch";
 import TestimonialBanner from "./TestimonialBanner";
+import Navbar from "../Navbar";
 
-export default function Packages() {
+export default function Packages(props) {
   let packages = [
     {
       name: "Starter",
@@ -68,6 +69,8 @@ export default function Packages() {
   ];
   return (
     <div className="Packages">
+      <Navbar toggleNavbar={props.toggleNavbar} state={props.state} />
+
       <div className="hero container-fluid">
         <h1 className="title">Packages</h1>
         <ShapeDivider />
