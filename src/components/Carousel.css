@@ -1,6 +1,6 @@
 .Carousel .carousel-inner {
-  padding: 50px 50px 0;
-  font-size: 20px;
+  padding: 10vh 5vw 0;
+  font-size: 1.5vw;
   letter-spacing: 1.5px;
   color: var(--dark-accent);
   font-weight: 300;
@@ -9,7 +9,7 @@
 .Carousel .testimonal-carousel {
   position: relative;
   z-index: 1;
-  left: 155px;
+  left: 50vw;
 }
 .Carousel .referee {
   padding: 50px 0 0;

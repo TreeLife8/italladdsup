@@ -14,3 +14,8 @@
 .Dext {
   background-color: var(--light-accent);
 }
+@media (min-width: 1300px) {
+  .Dext .logo {
+    right: 10vw;
+  }
+}

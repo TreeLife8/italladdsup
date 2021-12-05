@@ -17,3 +17,8 @@
   position: relative;
   right: -5vw;
 }
+@media (min-width: 1300px) {
+  .Intro .folders {
+    right: -10vw;
+  }
+}
