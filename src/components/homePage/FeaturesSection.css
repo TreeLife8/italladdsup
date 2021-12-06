@@ -3,7 +3,6 @@
   background-color: var(--seamoss-colour);
   color: var(--light-accent);
 }
-
 .FeaturesSection .section-heading {
   display: flex;
   justify-content: center;
@@ -29,9 +28,10 @@
 .FeaturesSection .card {
   background-color: var(--seamoss-colour);
   border: none;
-  width: 200px;
   margin: 20px 0px;
+  width: 20vw;
 }
+
 .FeaturesSection .card-body {
   padding: 0;
 }
@@ -59,6 +59,9 @@
 @media (max-width: 541px) {
   .FeaturesSection .card-img-top {
     width: 6vw;
+  }
+  .FeaturesSection .card {
+    width: 80vw;
   }
 }
 @media (max-width: 412px) {
