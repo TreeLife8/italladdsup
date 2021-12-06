@@ -56,6 +56,10 @@
   .Packages .hero {
     height: 35vh;
   }
+  .Packages .thin-heading {
+    padding-top: 50px;
+    font-size: 30px;
+  }
 }
 @media (max-width: 768px) {
   .Packages .custom-shape-divider-bottom-1634265382 {

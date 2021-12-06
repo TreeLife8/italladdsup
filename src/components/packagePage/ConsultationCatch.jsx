@@ -4,7 +4,7 @@ import "./ConsultationCatch.css";
 
 export default function ConsultationCatch() {
   return (
-    <div className="ConsultationCatch pt-5">
+    <div className="ConsultationCatch">
       <hr className="element" />
       <h4 className="thin-heading">Sick of feeling taxed?</h4>
       <h2 className="heading">Get a FREE consultation</h2>

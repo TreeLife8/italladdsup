@@ -18,3 +18,13 @@
   top: 10vh;
   right: 5vw;
 }
+@media (max-width: 1025px) {
+  .TestimonialBanner .carousel-inner {
+    padding: 0vh 4vw 0;
+    font-size: 2.5vw;
+  }
+
+  .TestimonialBanner {
+    padding: 5vh 2vw;
+  }
+}

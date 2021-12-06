@@ -6,5 +6,27 @@
   text-align: center;
   padding-bottom: 2vh;
 }
-@media (min-width: 1025px) {
+.ConsultationCatch {
+  padding-top: 20px;
+}
+@media (max-width: 1025px) {
+  .ConsultationCatch .thin-heading {
+    font-size: 3vw;
+  }
+  .ConsultationCatch .heading {
+    padding-bottom: 0vh;
+  }
+  .ConsultationCatch {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 412px) {
+  .ConsultationCatch .thin-heading {
+    font-size: 5vw;
+    padding-top: 2vh;
+  }
+  .ConsultationCatch .heading {
+    padding-top: 4vh;
+    font-size: 7vw;
+  }
 }
