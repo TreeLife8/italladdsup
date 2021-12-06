@@ -19,13 +19,13 @@ export default function Packages(props) {
       <div className="row container-fluid">
         <div className="col-sm-7">
           <img
-            className="xero-img img-fluid fade-up"
+            className="xero-img img-fluid"
             src={XERO}
             alt="a computer, phone and tablet all displaying the xero software"
           />
         </div>
         <div className="col-sm-5">
-          <div className="quote fade-up">
+          <div className="quote">
             <h2 className="thin-heading">
               Free software installation & setup upon request
             </h2>

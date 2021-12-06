@@ -64,10 +64,10 @@ export default function PackageCards() {
   ];
   return (
     <div className="PackageCards container-fluid">
-      <div className="row" data-aos="fade-up">
+      <div className="row">
         {packages.map(function (service, index) {
           return (
-            <div key={index} className="col-sm  d-flex justify-content-center">
+            <div key={index} className="col d-flex justify-content-center">
               <div className="card text-center">
                 <div className="card-body">
                   <h5 className="card-title">{service.name}</h5>

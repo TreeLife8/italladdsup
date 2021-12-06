@@ -17,7 +17,13 @@
   opacity: 0.9;
   font-size: 30px;
 }
-
+.PackageCards li {
+  font-size: 15px;
+  list-style: none;
+  text-align: start;
+  padding: 5px 0;
+  opacity: 0.7;
+}
 .PackageCards .card-subtitle {
   padding: 10px 0;
   margin: 0;
@@ -36,4 +42,40 @@
   margin: 0;
   opacity: 0.7;
   letter-spacing: 0.8px;
+}
+@media (max-width: 541px) {
+  .PackageCards .card {
+    width: 42vw;
+    margin: 20px 0;
+  }
+  .PackageCards .card-title {
+    font-size: 5vw;
+  }
+  .PackageCards .card-subtitle {
+    font-size: 2.5vw;
+    padding: 1px;
+  }
+  .PackageCards .card-price {
+    font-size: 1.5vw;
+  }
+  .PackageCards li {
+    font-size: 1.9vw;
+  }
+}
+@media (max-width: 412px) {
+  .PackageCards .card {
+    width: 85vw;
+  }
+  .PackageCards .card-title {
+    font-size: 8vw;
+  }
+  .PackageCards .card-subtitle {
+    font-size: 4vw;
+  }
+  .PackageCards .card-price {
+    font-size: 3.5vw;
+  }
+  .PackageCards li {
+    font-size: 4vw;
+  }
 }

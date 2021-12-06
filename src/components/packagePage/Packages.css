@@ -15,7 +15,6 @@
   color: white;
 }
 .Packages li {
-  font-size: 15px;
   list-style: none;
   text-align: start;
   padding: 5px 0;
@@ -49,89 +48,37 @@
   margin: 10px auto;
   max-width: 30%;
 }
-@media (max-width: 992px) {
+@media (max-width: 1025px) {
   .Packages .custom-shape-divider-bottom-1634265382 {
     margin-top: 175px;
     position: static;
   }
+  .Packages .hero {
+    height: 35vh;
+  }
 }
 @media (max-width: 768px) {
-  .Packages .hero {
-    height: 450px;
-  }
   .Packages .custom-shape-divider-bottom-1634265382 {
     margin-top: 150px;
     position: static;
   }
-  .Packages .card {
-    width: 21rem;
-  }
-  .Packages .xero-img {
-    position: relative;
-    top: -100px;
-    left: 280px;
-  }
-  .Packages .heading-title {
-    text-align: start;
-    font-size: 40px;
-    position: relative;
-    right: 385px;
-  }
-  .Packages .softwares {
-    position: relative;
-    right: 385px;
+  .Packages .hero {
+    height: 40vh;
   }
 }
-@media (max-width: 578px) {
-  .Packages .hero {
-    height: 300px;
-  }
-  .Packages .heading {
-    font-size: 60px;
-    padding-top: 50px;
-  }
+@media (max-width: 412px) {
   .Packages .custom-shape-divider-bottom-1634265382 {
-    margin-top: 70px;
+    margin-top: 50px;
     position: static;
   }
-  .Packages .card {
-    margin: 20px auto;
-    display: block;
-    width: 18rem;
-  }
-  .Packages .quote {
-    text-align: start;
-    font-size: 40px;
+  .Packages .hero {
+    height: 30vh;
   }
   .Packages .xero-img {
     position: relative;
     top: -30px;
-    left: 10px;
-    max-width: 260px;
   }
-  .Packages .image {
-    position: relative;
-    right: -40px;
-    top: 40px;
-  }
-  .Packages .heading-title {
-    text-align: end;
-    font-size: 28px;
-    position: static;
-    padding: 0 5px;
-  }
-  .Packages .light-banner {
-    padding: 20px 5px;
-  }
-  .Packages .phrase {
-    padding: 10px 5px;
-  }
-  .Packages .dark-banner {
-    padding: 20px 0;
-  }
-  .Packages .softwares {
-    position: relative;
-    right: 5px;
-    padding-bottom: 30px;
+  .Packages .thin-heading {
+    font-size: 6vw;
   }
 }
