@@ -47,9 +47,23 @@
 }
 @media (max-width: 1025px) {
   .Contact {
-    background: url(/src/components/images/beachWalkway.jpg) no-repeat center
+    background: url(/src/components/images/beachWalkway.jpg) no-repeat right
       center;
-    height: 80vh;
+    height: 90vh;
+  }
+  .Contact .contact-box {
+    width: 80vw;
+    opacity: 0.9;
+  }
+  .Contact .contact {
+    font-size: 4vw;
+  }
+  .Contact .script-heading {
+    font-size: 7vw;
+  }
+  .Contact .title {
+    font-size: 11vw;
+    padding: 15vh 0 5vh;
   }
 }
 @media (max-width: 415px) {
