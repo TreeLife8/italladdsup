@@ -4,6 +4,11 @@
 }
 .Qualifications .cert-symbol {
   border-radius: 4px;
+  height: 250px;
+}
+.Qualifications .myob {
+  padding: 0vw;
+  background-color: white;
 }
 @media (max-width: 570px) {
   .Qualifications .cert-symbol {

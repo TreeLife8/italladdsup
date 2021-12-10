@@ -10,18 +10,22 @@ export default function Qualifications() {
     {
       icon: `${TaxBoard}`,
       alt: "Tax Practitioner symbol for Australia",
+      class: "cert-symbol img-fluid",
     },
     {
       icon: `${Myob}`,
       alt: "Silver Parter for Myob logo",
+      class: "cert-symbol myob img-fluid",
     },
     {
       icon: `${Xero}`,
       alt: "Bronze partner for Xero logo",
+      class: "cert-symbol img-fluid",
     },
     {
       icon: `${ICB}`,
       alt: "The instatute of certified bookkeepers crest",
+      class: "cert-symbol img-fluid",
     },
   ];
   return (
@@ -33,7 +37,7 @@ export default function Qualifications() {
               <div key={index} className="col">
                 <img
                   data-aos="fade-zoom-up"
-                  className="cert-symbol img-fluid"
+                  className={qualify.class}
                   src={qualify.icon}
                   alt={qualify.alt}
                 />

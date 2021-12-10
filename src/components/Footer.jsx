@@ -63,7 +63,7 @@ export default function Footer() {
       <div className="Github-link mt-3 mb-3">
         Crafted by Regina Maher and is opened source on{" "}
         <a
-          href="https://github.com/TreeLife8/italladdsup"
+          href="https://github.com/regina-maher/italladdsup"
           target="_blank"
           rel="noreferrer"
         >
