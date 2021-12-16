@@ -8,7 +8,6 @@ import accurate from "../images/icons/accurate.png";
 import covidadvice from "../images/icons/covidAdvice.png";
 import efficient from "../images/icons/efficient.png";
 import cloudbased from "../images/icons/cloudbased.png";
-import lamp from "../images/office-lamp.jpg";
 import books from "../images/books.jpg";
 
 export default function FeaturesSection() {
@@ -39,7 +38,7 @@ export default function FeaturesSection() {
   );
   new Features(
     "Integration",
-    "with leading financial softwares such as MYOB and XERO",
+    "with leading financial softwares like MYOB and XERO",
     `${integration}`,
     "puzzles fitting together"
   );
@@ -75,14 +74,14 @@ export default function FeaturesSection() {
   );
   return (
     <div className="FeaturesSection">
-      <div className="banner row d-flex justify-content-start">
+      <div className="banner row">
         <div className="col-sm-7 left-side">
           <hr className="element" />
           <h2 className="heading text-start pb-4">Trusted service</h2>
           <div className="row">
             {features.map(function (feature, index) {
               return (
-                <div key={index} className="col">
+                <div key={index} className="feature col">
                   <div className="card">
                     <img
                       src={feature.icon}

@@ -35,7 +35,9 @@
 .Services .card-body {
   padding: 0;
 }
-
+.Services .col {
+  flex: 0;
+}
 .Services .card-img-top {
   width: 3vw;
   margin-left: 5px;

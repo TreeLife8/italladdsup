@@ -16,8 +16,12 @@
 }
 .FeaturesSection .card {
   border: none;
-  margin: 20px 0px;
-  width: 14.5vw;
+  margin: 20px 0;
+  padding-left: 5px;
+  width: 16.5vw;
+}
+.FeaturesSection .col {
+  flex: 0;
 }
 
 .FeaturesSection .card-body {
@@ -36,6 +40,7 @@
 .FeaturesSection .card-text {
   color: var(--dark-accent);
   opacity: 0.6;
+  font-size: 15px;
 }
 @media (max-width: 770px) {
   .FeaturesSection .banner {
