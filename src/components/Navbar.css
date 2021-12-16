@@ -2,6 +2,7 @@ nav {
   padding: 0;
   margin: 0;
   color: var(--dark-accent);
+  display: block;
 }
 
 nav .logo {

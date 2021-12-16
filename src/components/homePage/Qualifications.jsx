@@ -1,7 +1,7 @@
 import React from "react";
 import "./Qualifications.css";
 import TaxBoard from "../images/qualifications/TAX.jpg";
-import Myob from "../images/qualifications/MYOB.png";
+import Myob from "../images/qualifications/MYOB.jpg";
 import Xero from "../images/qualifications/XERO.jpg";
 import ICB from "../images/qualifications/ICB.jpg";
 

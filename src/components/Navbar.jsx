@@ -30,7 +30,7 @@ function Navbar(props) {
           </span>
         </button>
       </div>
-      <div className="nav-menu">
+      <div className="nav-menu d-flex justify-content-end">
         <div
           className={props.state ? "collapse" : "collapse navbar-collapse"}
           id="navbarNav"
