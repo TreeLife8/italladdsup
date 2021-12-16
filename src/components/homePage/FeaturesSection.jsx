@@ -8,6 +8,8 @@ import accurate from "../images/icons/accurate.png";
 import covidadvice from "../images/icons/covidAdvice.png";
 import efficient from "../images/icons/efficient.png";
 import cloudbased from "../images/icons/cloudbased.png";
+import lamp from "../images/office-lamp.jpg";
+import books from "../images/books.jpg";
 
 export default function FeaturesSection() {
   let features = [];
@@ -73,18 +75,14 @@ export default function FeaturesSection() {
   );
   return (
     <div className="FeaturesSection">
-      <div className="banner row  d-flex justify-content-start">
-        <div className="left-column">
-          <div className="col-sm-4">
-            <hr className="element" />
-            <h2 className="heading">Trusted service</h2>
-          </div>
-        </div>
-        <div className="col-sm-8">
+      <div className="banner row d-flex justify-content-start">
+        <div className="col-sm-7 left-side">
+          <hr className="element" />
+          <h2 className="heading text-start pb-4">Trusted service</h2>
           <div className="row">
             {features.map(function (feature, index) {
               return (
-                <div key={index} className="col-sm">
+                <div key={index} className="col">
                   <div className="card">
                     <img
                       src={feature.icon}
@@ -102,9 +100,12 @@ export default function FeaturesSection() {
             })}
           </div>
         </div>
-        <div className="col-sm-4 right-column">
-          <hr className="element" />
-          <h2 className="heading">Trusted service</h2>
+        <div className="col-sm-5 right-column">
+          <img
+            className="img-fluid bookshelf"
+            src={books}
+            alt="office with bookshelf"
+          />
         </div>
       </div>
     </div>
