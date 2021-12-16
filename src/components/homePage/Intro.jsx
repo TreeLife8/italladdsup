@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import "./Intro.css";
-import logo from "../images/logos/LOGO-type-blue-cut.png";
+import logo from "../images/logos/LOGO-type-blue.png";
 import folders from "../images/folders.png";
 
 export default function Intro() {

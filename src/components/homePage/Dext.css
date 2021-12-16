@@ -13,6 +13,7 @@
 }
 .Dext {
   background-color: var(--light-accent);
+  padding: 15px;
 }
 @media (min-width: 1300px) {
   .Dext .logo {
