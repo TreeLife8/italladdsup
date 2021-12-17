@@ -55,6 +55,10 @@
 .Services .catch-phrase {
   padding-right: 10px;
 }
+.Services .heading.script {
+  font-family: var(--script-font);
+  font-size: 4vw;
+}
 @media (max-width: 770px) {
   .Services h3.heading {
     font-size: 2.5vw;

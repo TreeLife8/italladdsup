@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button";
 import "./Intro.css";
 import logo from "../images/logos/LOGO-type-blue.png";
-import folders from "../images/folders.png";
+import folders from "../images/folders.jpeg";
 
 export default function Intro() {
   return (
@@ -11,7 +11,7 @@ export default function Intro() {
         <img
           src={logo}
           className="img-fluid logo"
-          aboutlt="it all adds up logo type"
+          alt="it all adds up logo type"
         />
         <h2 className="thin-heading">Based on the Northern Beaches</h2>
         <h2 className="script-heading">...with over 15 years experience</h2>

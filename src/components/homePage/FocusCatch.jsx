@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import "./FocusCatch.css";
-import nofear from "../images/nofear.png";
+import bizcard from "../images/bizcard.jpeg";
 
 export default function FocusCatch() {
   return (
@@ -9,7 +9,7 @@ export default function FocusCatch() {
       <div className="row">
         <div className="col-sm-6">
           <img
-            src={nofear}
+            src={bizcard}
             alt="keyboard and pen"
             className="img-fluid keyboard"
           />
@@ -19,7 +19,7 @@ export default function FocusCatch() {
           <h3 className="heading">Get a FREE consultation</h3>
           <h5 className="info">
             Do you want your work/life balance back?
-            <br /> Then look no further!
+            <div className="script">Look no further!</div>
           </h5>
           <Button
             text="book a consultation"

@@ -93,7 +93,7 @@ export default function Services() {
               );
             })}
             <div className="col-sm catch-phrase">
-              <h3 className="heading">...so you can focus.</h3>
+              <h3 className="script heading">...so you can focus.</h3>
               <h5 className="info">
                 Get peace of mind with clear reports and reliable advice, so you
                 can focus on what really matters

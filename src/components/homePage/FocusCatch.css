@@ -25,6 +25,12 @@
 .FocusCatch .keyboard {
   width: 100vw;
 }
+.FocusCatch .info .script {
+  font-family: var(--script-font);
+  font-size: 4vw;
+  padding-top: 20px;
+  opacity: 0.8;
+}
 @media (max-width: 1025px) {
   .FocusCatch .catch-column {
     padding: 2vh;
