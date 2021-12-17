@@ -9,7 +9,7 @@ export default function ConsultationCatch() {
       <h4 className="thin-heading">Sick of feeling taxed?</h4>
       <h2 className="heading">Get a FREE consultation</h2>
       <h4 className="thin-heading">
-        ...with your LOCAL, trustworthy and friendly bookkeeper.
+        ...with your local, trustworthy and friendly bookkeeper.
       </h4>
       <div className="text-center">
         <Button
