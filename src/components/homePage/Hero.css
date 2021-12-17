@@ -1,7 +1,7 @@
 .Hero {
   text-align: center;
-  background: url(/src/components/images/beach.jpg) no-repeat center center
-    fixed;
+  background: url(/src/components/images/beach-small.jpg) no-repeat center
+    center fixed;
   height: 750px;
   background-size: cover;
 }

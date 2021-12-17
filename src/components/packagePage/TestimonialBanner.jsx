@@ -1,6 +1,6 @@
 import React from "react";
 import "./TestimonialBanner.css";
-import workdesk from "../images/workdesk.png";
+import officePlant from "../images/officePlant.jpg";
 import Carousel from "../Carousel";
 
 export default function TestimonialBanner() {
@@ -11,7 +11,7 @@ export default function TestimonialBanner() {
       </div>
       <div className="col-sm-4">
         <img
-          src={workdesk}
+          src={officePlant}
           alt="workdesk with pen, keyboard, mouse and notebook"
           className="img-fluid img"
         />

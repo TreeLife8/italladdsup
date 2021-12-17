@@ -25,7 +25,7 @@ export default function Packages(props) {
           />
         </div>
         <div className="col-sm-5">
-          <div className="quote">
+          <div className="quote pt-5">
             <h2 className="thin-heading">
               Free software installation & setup upon request
             </h2>

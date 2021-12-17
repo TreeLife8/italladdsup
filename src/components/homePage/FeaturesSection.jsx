@@ -8,7 +8,7 @@ import accurate from "../images/icons/accurate.png";
 import covidadvice from "../images/icons/covidAdvice.png";
 import efficient from "../images/icons/efficient.png";
 import cloudbased from "../images/icons/cloudbased.png";
-import books from "../images/books.jpg";
+import books from "../images/books-small.jpg";
 
 export default function FeaturesSection() {
   let features = [];

@@ -1,6 +1,6 @@
 .Contact {
-  background: url(/src/components/images/beachWalkway.jpg) no-repeat center
-    center fixed;
+  background: url(/src/components/images/beachWalkway-small.jpg) no-repeat
+    center center fixed;
   height: 100vh;
   background-size: cover;
 }
